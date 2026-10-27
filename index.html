@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="calc" aria-label="Calculadora">
+      <div class="screen" aria-live="polite">
+        <div class="expr" id="expr"></div>
+        <div class="value" id="value">0</div>
+      </div>
+      <div class="keys">
+        <button data-action="clear" class="op">C</button>
+        <button data-action="back" class="op">⌫</button>
+        <button data-op="%" class="op">%</button>
+        <button data-op="/" class="op">÷</button>
+
+        <button data-num="7">7</button>
+        <button data-num="8">8</button>
+        <button data-num="9">9</button>
+        <button data-op="*" class="op">×</button>
+
+        <button data-num="4">4</button>
+        <button data-num="5">5</button>
+        <button data-num="6">6</button>
+        <button data-op="-" class="op">−</button>
+
+        <button data-num="1">1</button>
+        <button data-num="2">2</button>
+        <button data-num="3">3</button>
+        <button data-op="+" class="op">+</button>
+
+        <button data-num="0" class="span2">0</button>
+        <button data-action="dot">,</button>
+        <button data-action="equal" class="equal">=</button>
+      </div>
+    </section>
+
+    <aside class="history" aria-label="Histórico">
+      <h2>Histórico</h2>
+      <ul id="historyList"></ul>
+      <button class="clear" id="clearHistory">Limpar histórico</button>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
