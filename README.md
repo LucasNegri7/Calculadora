@@ -1,5 +1,6 @@
 # 🧮 Calculadora
-
+   🔗 **Veja online:** lucasnegri7.github.io/Calculadora/
+   
 Calculadora web desenvolvida com **HTML**, **CSS** e **JavaScript** puros, sem frameworks ou dependências externas. Além das operações básicas, ela mantém um **histórico** dos cálculos realizados.
 
 ## ✨ Funcionalidades
